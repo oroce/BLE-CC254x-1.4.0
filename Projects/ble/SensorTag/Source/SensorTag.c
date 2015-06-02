@@ -227,7 +227,7 @@ static uint8 scanRspData[] =
   // Tx power level
   0x02,   // length of this data
   GAP_ADTYPE_POWER_LEVEL,
-  0       // 0dBm
+  4       // 0dBm
 };
 
 // GAP - Advertisement data (max size = 31 bytes, though this is
@@ -513,6 +513,10 @@ void SensorTag_Init( uint8 task_id )
   // This reduces active current while radio is active and CC254x MCU
   // is halted
   HCI_EXT_ClkDivOnHaltCmd( HCI_EXT_ENABLE_CLK_DIVIDE_ON_HALT );
+
+  // as seen on http://stackoverflow.com/questions/22090954/how-to-modify-the-ti-sensortag-firmware-to-advertise-indefinitely
+  // ADDITION Adjust TX power level
+  HCI_EXT_SetTxPowerCmd( HCI_EXT_TX_POWER_4_DBM );
 
   // Setup a delayed profile startup
   osal_set_event( sensorTag_TaskID, ST_START_DEVICE_EVT );
