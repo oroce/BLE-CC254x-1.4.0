@@ -2,191 +2,190 @@
 #                                                                              #
 #      IAR Universal Linker V6.1.3.56                                          #
 #                                                                              #
-#           Link time     =  31/May/2015  11:17:19                             #
+#           Link time     =  01/Jun/2015  22:24:06                             #
 #           Target CPU    =  x51                                               #
-#           List file     =  "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Lis #
-#                            t\SensorTag.map"                                  #
-#           Output file 1 =  "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Exe #
-#                            \SensorTag.d51"                                   #
+#           List file     =  "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\List\Sensor #
+#                            Tag.map"                                          #
+#           Output file 1 =  "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Exe\SensorT #
+#                            ag.d51"                                           #
 #                            Format: debug                                     #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Output file 2 =  "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Exe #
-#                            \SensorTag.hex"                                   #
+#           Output file 2 =  "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Exe\SensorT #
+#                            ag.hex"                                           #
 #                            Format: intel-extended                            #
 #           Command line  =  "-IC:\Program Files\IAR Systems\Embedded Workbenc #
 #                            h 7.0_2\8051\CONFIG\"                             #
 #                            -D_NR_OF_BANKS=0x07 -D_CODEBANK_END=0xFFFF        #
 #                            -D_CODEBANK_START=0x8000 -D?CBANK_MASK=0xFF       #
 #                            -D?CBANK=0x9F                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \accelerometerservice.r51"                        #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \barometerservice.r51"                            #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\Libraries\CC2541DB\bin\CC2541_BLE_peri #
-#                            .lib"                                             #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\Libraries\Common\bin\CC254x_BLE_HCI_TL #
-#                            _None.lib"                                        #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \ccservice.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \devinfoservice-st.r51"                           #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \gap.r51"                                         #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \gapbondmgr.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \gatt_uuid.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \gyroservice.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_acc.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_aes.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_assert.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_bar.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_crc.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_dma.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_drivers.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_flash.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_gyro.r51"                                    #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_humi.r51"                                    #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_i2c.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_interrupt.r51"                               #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_irtemp.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_keys.r51"                                    #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_led.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_mag.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_sensor.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_sleep.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_startup.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \hal_timer.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \humidityservice.r51"                             #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \irtempservice.r51"                               #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \magnetometerservice.r51"                         #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \npi.r51"                                         #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \oad_target.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OnBoard.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL.r51"                                        #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \osal_bufmgr.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \osal_cbtimer.r51"                                #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL_ClockBLE.r51"                               #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL_Memory.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL_PwrMgr.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL_SensorTag.r51"                              #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \osal_snv.r51"                                    #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \OSAL_Timers.r51"                                 #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \peripheral.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \SensorTag.r51"                                   #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \SensorTag_Main.r51"                              #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \simplekeys.r51"                                  #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \st_util.r51"                                     #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj #
-#                            \testservice.r51"                                 #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\acceler #
+#                            ometerservice.r51"                                #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\baromet #
+#                            erservice.r51"                                    #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib"    #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.li #
+#                            b"                                                #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\ccservi #
+#                            ce.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\devinfo #
+#                            service-st.r51"                                   #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gap.r51 #
+#                            "                                                 #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gapbond #
+#                            mgr.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gatt_uu #
+#                            id.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gyroser #
+#                            vice.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_acc #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_aes #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_ass #
+#                            ert.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_bar #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_crc #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_dma #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_dri #
+#                            vers.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_fla #
+#                            sh.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_gyr #
+#                            o.r51"                                            #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_hum #
+#                            i.r51"                                            #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_i2c #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_int #
+#                            errupt.r51"                                       #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_irt #
+#                            emp.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_key #
+#                            s.r51"                                            #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_led #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_mag #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sen #
+#                            sor.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sle #
+#                            ep.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sta #
+#                            rtup.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_tim #
+#                            er.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\humidit #
+#                            yservice.r51"                                     #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\irtemps #
+#                            ervice.r51"                                       #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\magneto #
+#                            meterservice.r51"                                 #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\npi.r51 #
+#                            "                                                 #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\oad_tar #
+#                            get.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OnBoard #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL.r5 #
+#                            1"                                                #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_bu #
+#                            fmgr.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_cb #
+#                            timer.r51"                                        #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Cl #
+#                            ockBLE.r51"                                       #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Me #
+#                            mory.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Pw #
+#                            rMgr.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Se #
+#                            nsorTag.r51"                                      #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_sn #
+#                            v.r51"                                            #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Ti #
+#                            mers.r51"                                         #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\periphe #
+#                            ral.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorT #
+#                            ag.r51"                                           #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorT #
+#                            ag_Main.r51"                                      #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\simplek #
+#                            eys.r51"                                          #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\st_util #
+#                            .r51"                                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\testser #
+#                            vice.r51"                                         #
 #                            -o                                                #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Exe #
-#                            \SensorTag.d51"                                   #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\Exe\SensorT #
+#                            ag.d51"                                           #
 #                            -l                                                #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Lis #
-#                            t\SensorTag.map"                                  #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\CC2541DK-Sensor\List\Sensor #
+#                            Tag.map"                                          #
 #                            -xmsn -f                                          #
-#                            "C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Pr #
-#                            ojects\ble\SensorTag\CC2541DB\..\..\common\cc2540 #
-#                            \ti_51ew_cc2540b.xcl"                             #
+#                            "C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\b #
+#                            le\SensorTag\CC2541DB\..\..\common\cc2540\ti_51ew #
+#                            _cc2540b.xcl"                                     #
 #                            (-D_IDATA_END=0xFF -D_PDATA_START=0x1E00          #
 #                            -D_PDATA_END=0x1EFF -D_IXDATA_START=0x0001        #
 #                            -D_IXDATA_END=0x1EFF                              #
@@ -305,8 +304,8 @@
 #                            -e_large_write=_formatted_write                   #
 #                            -e_large_read=_formatted_read -rt                 #
 #                            "-Ointel-extended=C:\Texas Instruments\BLE-CC254x #
-#                            -1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC #
-#                            2541DK-Sensor\Exe\SensorTag.hex"                  #
+#                            -1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-S #
+#                            ensor\Exe\SensorTag.hex"                          #
 #                            -s __program_start                                #
 #                            "C:\Program Files\IAR Systems\Embedded Workbench  #
 #                            7.0_2\8051\LIB\CLIB\cl-pli-blxd-1e16x01.r51"      #
@@ -454,7 +453,7 @@ Absolute parts
            _NR_OF_BANKS            00000007 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\accelerometerservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\accelerometerservice.r51
   PROGRAM MODULE, NAME : accelerometerservice
 
   SEGMENTS IN THE MODULE
@@ -779,7 +778,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\barometerservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\barometerservice.r51
   PROGRAM MODULE, NAME : barometerservice
 
   SEGMENTS IN THE MODULE
@@ -1158,7 +1157,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib
   LIBRARY MODULE, NAME : att_server
 
   SEGMENTS IN THE MODULE
@@ -15388,7 +15387,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib
   LIBRARY MODULE, NAME : hci_tl
 
   SEGMENTS IN THE MODULE
@@ -15546,7 +15545,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\ccservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\ccservice.r51
   PROGRAM MODULE, NAME : ccservice
 
   SEGMENTS IN THE MODULE
@@ -15869,7 +15868,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\devinfoservice-st.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\devinfoservice-st.r51
   PROGRAM MODULE, NAME : devinfoservice-st
 
   SEGMENTS IN THE MODULE
@@ -16285,7 +16284,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gap.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gap.r51
   PROGRAM MODULE, NAME : gap
 
   SEGMENTS IN THE MODULE
@@ -16309,7 +16308,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gapbondmgr.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gapbondmgr.r51
   PROGRAM MODULE, NAME : gapbondmgr
 
   SEGMENTS IN THE MODULE
@@ -17192,7 +17191,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gatt_uuid.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gatt_uuid.r51
   PROGRAM MODULE, NAME : gatt_uuid
 
   SEGMENTS IN THE MODULE
@@ -17388,7 +17387,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gyroservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\gyroservice.r51
   PROGRAM MODULE, NAME : gyroservice
 
   SEGMENTS IN THE MODULE
@@ -17713,7 +17712,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_acc.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_acc.r51
   PROGRAM MODULE, NAME : hal_acc
 
   SEGMENTS IN THE MODULE
@@ -17850,7 +17849,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_aes.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_aes.r51
   PROGRAM MODULE, NAME : hal_aes
 
   SEGMENTS IN THE MODULE
@@ -17900,7 +17899,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_assert.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_assert.r51
   PROGRAM MODULE, NAME : hal_assert
 
   SEGMENTS IN THE MODULE
@@ -17944,7 +17943,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_bar.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_bar.r51
   PROGRAM MODULE, NAME : hal_bar
 
   SEGMENTS IN THE MODULE
@@ -18088,7 +18087,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_crc.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_crc.r51
   PROGRAM MODULE, NAME : hal_crc
 
   SEGMENTS IN THE MODULE
@@ -18116,7 +18115,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_dma.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_dma.r51
   PROGRAM MODULE, NAME : hal_dma
 
   SEGMENTS IN THE MODULE
@@ -18192,7 +18191,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_drivers.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_drivers.r51
   PROGRAM MODULE, NAME : hal_drivers
 
   SEGMENTS IN THE MODULE
@@ -18286,7 +18285,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_flash.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_flash.r51
   PROGRAM MODULE, NAME : hal_flash
 
   SEGMENTS IN THE MODULE
@@ -18360,7 +18359,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_gyro.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_gyro.r51
   PROGRAM MODULE, NAME : hal_gyro
 
   SEGMENTS IN THE MODULE
@@ -18553,7 +18552,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_humi.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_humi.r51
   PROGRAM MODULE, NAME : hal_humi
 
   SEGMENTS IN THE MODULE
@@ -18708,7 +18707,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_i2c.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_i2c.r51
   PROGRAM MODULE, NAME : hal_i2c
 
   SEGMENTS IN THE MODULE
@@ -18811,7 +18810,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_interrupt.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_interrupt.r51
   PROGRAM MODULE, NAME : hal_interrupt
 
   SEGMENTS IN THE MODULE
@@ -18921,7 +18920,7 @@ INTVEC
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_irtemp.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_irtemp.r51
   PROGRAM MODULE, NAME : hal_irtemp
 
   SEGMENTS IN THE MODULE
@@ -19100,7 +19099,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_keys.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_keys.r51
   PROGRAM MODULE, NAME : hal_keys
 
   SEGMENTS IN THE MODULE
@@ -19340,7 +19339,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_led.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_led.r51
   PROGRAM MODULE, NAME : hal_led
 
   SEGMENTS IN THE MODULE
@@ -19511,7 +19510,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_mag.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_mag.r51
   PROGRAM MODULE, NAME : hal_mag
 
   SEGMENTS IN THE MODULE
@@ -19679,7 +19678,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sensor.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sensor.r51
   PROGRAM MODULE, NAME : hal_sensor
 
   SEGMENTS IN THE MODULE
@@ -19805,7 +19804,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sleep.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_sleep.r51
   PROGRAM MODULE, NAME : hal_sleep
 
   SEGMENTS IN THE MODULE
@@ -20054,7 +20053,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_startup.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_startup.r51
   PROGRAM MODULE, NAME : hal_startup
 
   SEGMENTS IN THE MODULE
@@ -20068,10 +20067,10 @@ CSTART
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_timer.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\hal_timer.r51
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\humidityservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\humidityservice.r51
   PROGRAM MODULE, NAME : humidityservice
 
   SEGMENTS IN THE MODULE
@@ -20397,7 +20396,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\irtempservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\irtempservice.r51
   PROGRAM MODULE, NAME : irtempservice
 
   SEGMENTS IN THE MODULE
@@ -20722,7 +20721,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\magnetometerservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\magnetometerservice.r51
   PROGRAM MODULE, NAME : magnetometerservice
 
   SEGMENTS IN THE MODULE
@@ -21051,10 +21050,10 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\npi.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\npi.r51
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\oad_target.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\oad_target.r51
   PROGRAM MODULE, NAME : oad_target
 
   SEGMENTS IN THE MODULE
@@ -21081,7 +21080,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OnBoard.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OnBoard.r51
   PROGRAM MODULE, NAME : OnBoard
 
   SEGMENTS IN THE MODULE
@@ -21200,7 +21199,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL.r51
   PROGRAM MODULE, NAME : OSAL
 
   SEGMENTS IN THE MODULE
@@ -21876,7 +21875,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_bufmgr.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_bufmgr.r51
   PROGRAM MODULE, NAME : osal_bufmgr
 
   SEGMENTS IN THE MODULE
@@ -21971,7 +21970,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_cbtimer.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_cbtimer.r51
   PROGRAM MODULE, NAME : osal_cbtimer
 
   SEGMENTS IN THE MODULE
@@ -22073,7 +22072,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_ClockBLE.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_ClockBLE.r51
   PROGRAM MODULE, NAME : OSAL_ClockBLE
 
   SEGMENTS IN THE MODULE
@@ -22153,7 +22152,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Memory.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Memory.r51
   PROGRAM MODULE, NAME : OSAL_Memory
 
   SEGMENTS IN THE MODULE
@@ -22287,7 +22286,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_PwrMgr.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_PwrMgr.r51
   PROGRAM MODULE, NAME : OSAL_PwrMgr
 
   SEGMENTS IN THE MODULE
@@ -22376,7 +22375,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_SensorTag.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_SensorTag.r51
   PROGRAM MODULE, NAME : OSAL_SensorTag
 
   SEGMENTS IN THE MODULE
@@ -22434,7 +22433,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_snv.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\osal_snv.r51
   PROGRAM MODULE, NAME : osal_snv
 
   SEGMENTS IN THE MODULE
@@ -22827,7 +22826,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Timers.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\OSAL_Timers.r51
   PROGRAM MODULE, NAME : OSAL_Timers
 
   SEGMENTS IN THE MODULE
@@ -23071,7 +23070,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\peripheral.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\peripheral.r51
   PROGRAM MODULE, NAME : peripheral
 
   SEGMENTS IN THE MODULE
@@ -23679,7 +23678,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorTag.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorTag.r51
   PROGRAM MODULE, NAME : SensorTag
 
   SEGMENTS IN THE MODULE
@@ -24523,7 +24522,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorTag_Main.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\SensorTag_Main.r51
   PROGRAM MODULE, NAME : SensorTag_Main
 
   SEGMENTS IN THE MODULE
@@ -24570,7 +24569,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\simplekeys.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\simplekeys.r51
   PROGRAM MODULE, NAME : simplekeys
 
   SEGMENTS IN THE MODULE
@@ -24757,7 +24756,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\st_util.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\st_util.r51
   PROGRAM MODULE, NAME : st_util
 
   SEGMENTS IN THE MODULE
@@ -24795,7 +24794,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\testservice.r51
+  FILE NAME : C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\CC2541DK-Sensor\Obj\testservice.r51
   PROGRAM MODULE, NAME : testservice
 
   SEGMENTS IN THE MODULE
