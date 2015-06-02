@@ -36,6 +36,12 @@ C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Prof
 -I
 C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\DevInfo
 -I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\Batt
+-I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\HIDDev
+-I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\ScanParam
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\8051\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\8051\inc\clib
@@ -73,6 +79,12 @@ C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\SensorProfile
 C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\Keys
 -I
 C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\DevInfo
+-I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\Batt
+-I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\HIDDev
+-I
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\ScanParam
 -DINT_HEAP_LEN=3072
 -DHALNODEBUG=1
 -DOSAL_CBTIMER_NUM_TASKS=1
@@ -378,7 +390,7 @@ C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\DevInfo
 -D__HAS_LOCATED_DECLARATION__=1
 -D__IAR_COMPILERBASE__=593670
 -D__DATE__="Jun  1 2015"
--D__TIME__="22:10:02"
+-D__TIME__="22:26:36"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

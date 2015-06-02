@@ -390,7 +390,7 @@ C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\ScanParam
 -D__HAS_LOCATED_DECLARATION__=1
 -D__IAR_COMPILERBASE__=593670
 -D__DATE__="Jun  1 2015"
--D__TIME__="22:10:52"
+-D__TIME__="22:27:27"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
