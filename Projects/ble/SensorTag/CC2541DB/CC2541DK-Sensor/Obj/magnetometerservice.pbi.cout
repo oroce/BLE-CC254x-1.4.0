@@ -1,78 +1,78 @@
-"C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\SensorProfile\magnetometerservice.c"
+"C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\SensorProfile\magnetometerservice.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\common
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\common
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\hal\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\hal\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\hal\target\CC2541ST
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\hal\target\CC2541ST
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\osal\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\osal\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\services\saddr
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\services\saddr
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\controller\phy
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\controller\phy
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\controller\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\controller\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\hci
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\hci
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\host
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\..\..\Components\ble\host
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\common\cc2540
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\common\cc2540
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\common\npi\npi_np
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\common\npi\npi_np
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\Roles
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\Roles
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\SensorProfile
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\SensorProfile
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\Keys
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\Keys
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\DevInfo
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\SensorTag\CC2541DB\..\..\Profiles\DevInfo
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\8051\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 7.0_2\8051\inc\clib
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\common
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\common
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\hal\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\hal\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\hal\target\CC2541ST
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\hal\target\CC2541ST
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\osal\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\osal\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\services\saddr
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\services\saddr
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\ble\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\ble\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\ble\controller\phy
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\ble\controller\phy
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\ble\controller\include
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\ble\controller\include
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\ble\hci
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\ble\hci
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Components\ble\host
+C:\Texas Instruments\BLE-CC254x-1.4.0\Components\ble\host
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\common\cc2540
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\common\cc2540
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\common\npi\npi_np
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\common\npi\npi_np
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\Roles
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\Roles
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\SensorProfile
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\SensorProfile
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\Keys
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\Keys
 -I
-C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\DevInfo
+C:\Texas Instruments\BLE-CC254x-1.4.0\Projects\ble\Profiles\DevInfo
 -DINT_HEAP_LEN=3072
 -DHALNODEBUG=1
 -DOSAL_CBTIMER_NUM_TASKS=1
@@ -377,8 +377,8 @@ C:\Texas Instruments\BLE-CC254x-1.4.0-geniune\Projects\ble\Profiles\DevInfo
 -D__PLAIN_INT_BITFIELD_IS_SIGNED__=1
 -D__HAS_LOCATED_DECLARATION__=1
 -D__IAR_COMPILERBASE__=593670
--D__DATE__="May 31 2015"
--D__TIME__="11:17:31"
+-D__DATE__="Jun  1 2015"
+-D__TIME__="22:08:00"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
