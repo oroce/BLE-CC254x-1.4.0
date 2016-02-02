@@ -1,3 +1,5 @@
+!!!Check the branches, that's where the magic lives
+
 Texas Instruments, Inc.
 
 CC2540/41 Bluetooth Low Energy Software Development Kit
@@ -128,9 +130,9 @@ Bug Fixes:
 - The gyroscope would draw continuous 6mA when enabled. The updated 
   code now performs a read and turns off the gyro after 60ms.
 
-- The master’s host would accept invalid connection parameters requested 
+- The masterâ€™s host would accept invalid connection parameters requested 
   by the Slave, and would send back the Connection Parameter Update Response
-  with ‘parameters accepted’. The host now performs validation on these 
+  with â€˜parameters acceptedâ€™. The host now performs validation on these 
   parameters.
 
 - When coming out of sleep, the HCI_EXT_ExtendRfRangeCmd would override     
@@ -879,13 +881,13 @@ October 7, 2010
 
 Notices:
 
-- The Texas Instruments Bluetooth® low energy (BLE) software development kit 
+- The Texas Instruments BluetoothÂ® low energy (BLE) software development kit 
   includes all necessary software to get started on the development of 
   single-mode BLE applications using the CC2540 system-on-chip. It includes 
   object code with the BLE protocol stack, a sample project and applications 
   with source code, and BTool, a Windows PC application for testing BLE 
   applications. In addition to the software, the kit contains documentation, 
-  including a developer’s guide and BLE API guide.
+  including a developerâ€™s guide and BLE API guide.
 
 - For complete information on the BLE software development kit, please read
   the developer's guide:
